@@ -39,7 +39,7 @@ GPT is based on the Transformer architecture but is trained in a way that’s op
 
 * Generation: When you interact with GPT, you provide a prompt (like a question or sentence), and the model generates a continuation by predicting one word at a time. Each word generated is based on both the input prompt and the previous words it has generated.
 
-![Basic Structure](./Structure_basic.png)
+![Basic Structure](./Structure_basics.png)
 
 ### Processing and loading Documents into Vector Store 
 
@@ -81,7 +81,7 @@ Think of the vector store as a specialized database optimized to quickly find "s
 
 4. Delivering the Answer
 
-Finally, the system sends the generated answer back to the user.
+* Finally, the system sends the generated answer back to the user.
 
 ### Why Each Part Matters
 * Embeddings: These are the foundation, as they capture the "meaning" of each text chunk in a way that allows for effective comparisons. Think of embeddings as a way of turning words into "coordinates" in a high-dimensional space, where similar meanings are close to each other.
