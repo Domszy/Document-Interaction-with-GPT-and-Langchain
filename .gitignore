@@ -1,3 +1,5 @@
 .env
 .venv
+logs
+results
 notebook-solution.ipynb
