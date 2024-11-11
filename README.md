@@ -90,4 +90,22 @@ Think of the vector store as a specialized database optimized to quickly find "s
 
 * LLM (Language Model): Once the relevant chunks are identified, the language model uses this information to form a coherent answer that feels natural and relevant.
 
+### Setup and Installation
+1. Installation:
 
+* Download the repo onto your local device and use your favourite IDE in assessing the codebase. 
+* Configure your OpenAI API key and PineCone API key and insert it into your `.env` file as such:
+```
+OPENAI_API_KEY = "YOUR OPEN AI API KEY" 
+PINECONE_API_KEY = "YOUR PINECONE API KEY" 
+
+```
+* Ensure that you have set up a payment method for your OpenAI developer account. 
+
+2. Run the `notebook.ipynb` file. 
+
+### Conclusion
+
+This project demonstrates the power and flexibility of leveraging LangChain with FAISS for building robust document retrieval and question-answering systems. By combining the capabilities of a local vector store like FAISS with advanced language models, we can efficiently search, retrieve, and extract relevant information from large collections of documents.
+
+The project showcases the end-to-end pipeline, starting from loading and chunking PDF documents to embedding them and integrating a query-answering chain. This architecture not only improves information accessibility but also ensures that users are provided with sourced and contextually relevant answers. The approach of enriching queries with metadata for source transparency highlights the importance of providing verifiable information, making the system more reliable and trustworthy.
